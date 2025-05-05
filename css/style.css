@@ -1,0 +1,41 @@
+/* Jumbotron alanı özelleştirmesi */
+.jumbotron {
+  background-color: #ffe082; /* Açık sarı / dikkat çekici bir ton */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Jumbotron içeriği */
+.jumbotron h1 {
+  font-weight: 700;
+}
+
+.jumbotron p.lead {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Kart görselleri */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Blog kartlarının hizalanması */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Kart başlığı ve içeriği */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
